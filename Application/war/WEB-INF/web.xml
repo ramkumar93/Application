@@ -23,6 +23,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/contact</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>Gokulgokul</servlet-name>
+ 		<servlet-class>com.controller.GokulgokulServlet</servlet-class> 
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>gokul</servlet-name>
+		<url-pattern>/gokul</url-pattern>
+	</servlet-mapping>
+	
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
